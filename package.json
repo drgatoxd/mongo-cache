@@ -1,0 +1,26 @@
+{
+  "name": "mongo-cache",
+  "version": "1.0.0",
+  "description": "Almacena en cache las bases de datos de MongoDB",
+  "main": "dist/index.js",
+  "typings": "types/index.d.ts",
+  "scripts": {
+    "compile": "tsc"
+  },
+  "keywords": [
+    "mongoose",
+    "mongodb",
+    "database",
+    "cache",
+    "discord"
+  ],
+  "author": "drgato785",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/collection": "^1.1.0",
+    "mongoose": "^6.6.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
